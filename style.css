@@ -375,6 +375,19 @@ section{
 
 /* ========== Responsive Professional ========== */
 
+@media (max-width:768px){
+
+    .main{
+        background:
+        linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
+        url("photos/photomobile.png");
+
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
 @media (max-width: 1200px){
     header{
         padding: 12px 60px;
@@ -383,6 +396,14 @@ section{
     section{
         padding: 110px 60px;
     }
+}
+
+@media (max-width:768px){
+
+    .main-content{
+        display:none;
+    }
+
 }
 
 @media (max-width: 992px){
